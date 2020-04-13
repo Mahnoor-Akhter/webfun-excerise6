@@ -1,0 +1,111 @@
+header
+{
+    background-image: url(../images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid blue;
+}
+body
+{
+    background-color: black;
+}
+
+
+nav ul li
+{
+    
+    color: white;
+    text-decoration: none;
+    background-color:darkgrey;
+    display:inline-block;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid;
+    border-radius: 10px;
+    
+}
+nav ul
+{
+    text-align: center;
+    font-size: 1.2cm;
+}
+nav ul li:hover{
+    
+    background-color: palegreen;
+}
+nav
+{
+    background-color: grey;
+    padding: 10px;
+}
+#content
+{
+    float: left;
+    width:80%;
+    margin-right: 15px;
+    border: :1px solid grey;
+    
+}
+#BigPic
+{
+  width: 100%;
+}
+aside{
+    border: .5px solid yellow;
+    width:18%;
+    float: right;
+}
+
+aside ul li a{
+    
+    color: blue;
+    text-decoration: none;
+}
+aside ul li {
+    list-style-type: none;
+}
+
+
+
+
+main{
+    background-color: black;
+    padding:10px;
+    margin: 1px;
+j
+}
+h2{
+    color: white;
+    text-align: center;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+ol{
+    color: white;
+}
+.co_detail{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+    color: white;
+}
+
+footer{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom:0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    display: inline-block;
+}
